@@ -1,0 +1,38 @@
+{
+  "name": "subliminalr",
+  "displayName": "SubliminalR",
+  "description": "Inspired by the Subliminal theme this reloaded version has some extended language support and some personal preferences",
+  "license": "MIT",
+  "version": "0.1.0",
+  "publisher": "TobiasTimm",
+  "preview": false,
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "keywords": [
+    "theme",
+    "subliminal",
+    "dark",
+    "gaeron",
+    "subliminalr"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiastimm/subliminalr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tobiastimm/subliminalr/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "SubliminalR",
+        "uiTheme": "vs-dark",
+        "path": "./themes/subliminalr.json"
+      }
+    ]
+  }
+}
