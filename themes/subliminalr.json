@@ -456,6 +456,9 @@
       "name": "Keyword - JavaScript",
       "scope": [
         "keyword.control.export",
+        "keyword.control.import",
+        "keyword.control.as",
+        "keyword.control.from",
         "source.js keyword",
         "source.js.jsx keyword",
         "storage.type.js",
