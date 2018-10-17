@@ -144,7 +144,11 @@
       }
     },
     {
-      "scope": ["meta.object-literal.key"],
+      "scope": [
+        "meta.object-literal.key",
+        "meta.selectionset.graphql variable.graphql",
+        "keyword.operator.nulltype.graphql"
+      ],
       "settings": {
         "foreground": "#ffe2a9"
       }
@@ -174,7 +178,9 @@
         "punctuation.accessor",
         "punctuation.section",
         "punctuation.support.type.property-name.begin",
-        "punctuation.support.type.property-name.end"
+        "punctuation.support.type.property-name.end",
+        "punctuation.operation.graphql",
+        "punctuation.colon.graphql"
       ],
       "settings": {
         "foreground": "#9DA3AB"
@@ -206,7 +212,24 @@
     },
     {
       "scope": [
+        "meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
+        "meta.selectionset.graphql meta.arguments.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
+      "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#ffe2a9"
+      }
+    },
+    {
+      "scope": [
+        "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
       ],
       "settings": {
         "foreground": "#ffe2a9"
@@ -223,7 +246,23 @@
     },
     {
       "scope": [
+        "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#6699cc"
+      }
+    },
+    {
+      "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#cd9731"
+      }
+    },
+    {
+      "scope": [
+        "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
       ],
       "settings": {
         "foreground": "#cd9731"
@@ -239,7 +278,23 @@
     },
     {
       "scope": [
+        "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#ec5f66"
+      }
+    },
+    {
+      "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F"
+      }
+    },
+    {
+      "scope": [
+        "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
       ],
       "settings": {
         "foreground": "#7F7F7F"
@@ -255,7 +310,23 @@
     },
     {
       "scope": [
+        "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#ffe2a9"
+      }
+    },
+    {
+      "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#6699cc"
+      }
+    },
+    {
+      "scope": [
+        "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
       ],
       "settings": {
         "foreground": "#6699cc"
@@ -271,10 +342,26 @@
     },
     {
       "scope": [
+        "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#cd9731"
+      }
+    },
+    {
+      "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#99C794"
+      }
+    },
+    {
+      "scope": [
+        "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#99c794"
       }
     },
     {
@@ -320,7 +407,8 @@
         "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js support.type.builtin.js",
         "source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx",
         "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js support.type.builtin.js",
-        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx"
+        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx",
+        "support.type.builtin.graphql"
       ],
       "settings": {
         "foreground": "#a9cfa4"
@@ -340,7 +428,8 @@
         "source.js meta.class.js meta.method.declaration.js meta.parameters.js meta.type.annotation.js entity.name.type.js",
         "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.parameters.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
         "source.js meta.type.declaration.js meta.type.parameters.js entity.name.type.js",
-        "source.js.jsx meta.type.declaration.js.jsx meta.type.parameters.js.jsx entity.name.type.js.jsx"
+        "source.js.jsx meta.type.declaration.js.jsx meta.type.parameters.js.jsx entity.name.type.js.jsx",
+        "meta.type.interface.graphql meta.type.object.graphql support.type.graphql"
       ],
       "settings": {
         "foreground": "#ffe2a9"
@@ -491,7 +580,8 @@
         "source.js meta.class.js meta.method.declaration.js storage.modifier.async.js",
         "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx storage.modifier.async.js.jsx",
         "source.js meta.class.js meta.method.declaration.js meta.block.js meta.function-call.js variable.language.super.js",
-        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.block.js.jsx meta.function-call.js.jsx variable.language.super.js.jsx"
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.block.js.jsx meta.function-call.js.jsx variable.language.super.js.jsx",
+        "source.graphql keyword"
       ],
       "settings": {
         "foreground": "#7F7F7F",
@@ -712,7 +802,8 @@
         "constant.language.import-export-all.js",
         "constant.language.import-export-all.js.jsx",
         "keyword.operator.arithmetic.js",
-        "keyword.operator.arithmetic.js.jsx"
+        "keyword.operator.arithmetic.js.jsx",
+        "entity.name.function.graphql"
       ],
       "settings": {
         "foreground": "#ffe2a9"
@@ -1047,7 +1138,9 @@
         "source.js meta.type.declaration.js entity.name.type.js",
         "source.js.jsx meta.type.declaration.js.jsx entity.name.type.js.jsx",
         "source.js entity.name.type.alias",
-        "source.js.jsx entity.name.type.alias"
+        "source.js.jsx entity.name.type.alias",
+        "meta.type.interface.graphql support.type.graphql",
+        "meta.enum.graphql support.type.enum.graphql"
       ],
       "settings": {
         "foreground": "#f1a5ab"
@@ -1556,7 +1649,8 @@
         "keyword.operator.other.elixir",
         "keyword.operator.assignment.go",
         "support.type.builtin",
-        "support.class.component"
+        "support.class.component",
+        "keyword.operator.nulltype.graphql"
       ],
       "settings": {
         "fontStyle": "normal"
