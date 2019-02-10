@@ -32,7 +32,17 @@
         "label": "SubliminalR",
         "uiTheme": "vs-dark",
         "path": "./themes/subliminalr.json"
+      },
+      {
+        "label": "SubliminalR - Next",
+        "uiTheme": "vs-dark",
+        "path": "./themes/subliminalr-next.json"
       }
     ]
+  },
+  "__metadata": {
+    "id": "4eb5aa72-8d86-4fd3-8fe1-e7c6f13cd63a",
+    "publisherDisplayName": "Tobias Timm",
+    "publisherId": "5e0244e1-b94f-4e44-8cdc-1397334a044f"
   }
 }

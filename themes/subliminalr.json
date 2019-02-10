@@ -241,7 +241,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#6699CC"
+        "foreground": "#91c5d3"
       }
     },
     {
@@ -249,7 +249,7 @@
         "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
       ],
       "settings": {
-        "foreground": "#6699cc"
+        "foreground": "#91c5d3"
       }
     },
     {
@@ -321,7 +321,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#6699cc"
+        "foreground": "#f1a5ab"
       }
     },
     {
@@ -329,7 +329,7 @@
         "meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
       ],
       "settings": {
-        "foreground": "#6699cc"
+        "foreground": "#f1a5ab"
       }
     },
     {
@@ -514,7 +514,7 @@
       "name": "C# Typedef - Object",
       "scope": ["source.cs storage.type.cs"],
       "settings": {
-        "foreground": "#d7e2ff"
+        "foreground": "#ffe2a9"
       }
     },
     {
@@ -760,7 +760,7 @@
         "source.elixir.embedded variable.other.readwrite.module.elixir"
       ],
       "settings": {
-        "foreground": "#d7e2ff"
+        "foreground": "#ffe2a9"
       }
     },
     {
@@ -1228,7 +1228,7 @@
         "entity.name.type.module.elixir"
       ],
       "settings": {
-        "foreground": "#d7e2ff"
+        "foreground": "#ffe2a9"
       }
     },
     {
@@ -1253,7 +1253,8 @@
         "source.js meta.export.default.js keyword.control.default.js",
         "source.js.jsx meta.export.default.js.jsx keyword.control.default.js.jsx",
         "keyword.control.switch.js",
-        "keyword.control.switch.js.jsx"
+        "keyword.control.switch.js.jsx",
+        "storage.modifier.async"
       ],
       "settings": {
         "foreground": "#f1a5ab"
