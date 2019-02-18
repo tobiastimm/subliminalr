@@ -1,3 +1,7 @@
+# 0.3.1
+
+- Fix color for react components
+
 # 0.3.0
 
 - Added `Next` theme for testing new things
