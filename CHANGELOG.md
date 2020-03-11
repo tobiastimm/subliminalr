@@ -1,3 +1,9 @@
+# Changelog
+
+# 0.3.2
+
+- Fix variable scope colors
+
 # 0.3.1
 
 - Fix color for react components

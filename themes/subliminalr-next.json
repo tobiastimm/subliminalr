@@ -620,6 +620,12 @@
       }
     },
     {
+      "scope": ["entity.name.variable"],
+      "settings": {
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
       "scope": [
         "keyword.control.import",
         "keyword.control.from",
